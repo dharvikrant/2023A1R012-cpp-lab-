@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+class program
+{
+    private : int adv{1,2,3,4,5};
+    int weak[5] : {6,7,55,88,9};int i;
+    public :void Display()
+    {
+        cout<<"List of advance Learners \t";
+        for(i=0;i<5;i++){
+            cout<<adv[i]<<"\t";
+        }
+        cout<<"\n List of weak learners \t";
+        for(i=0;i<5;i++){
+            cout<<weak[i]<<"\t";
+        }
+    }
+};
